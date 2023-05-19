@@ -1,0 +1,62 @@
+/* .row {
+    background-color: rgb(160, 197, 230);
+    width: 50%;
+    margin: 0 auto;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s ease;
+    padding: 1em 1em;
+  }
+  
+  .row.show {
+    visibility: visible;
+    opacity: 1;
+  }
+
+.back{
+    background-color: rgb(154, 154, 165);
+  } */
+
+.todolist {
+  margin: 1em auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+  background-color: antiquewhite;
+}
+ .todolist > h1 {
+  width: 65%;
+  margin: .5em auto;
+  margin-left: 5em;
+  margin-bottom: 1em;
+ }
+ #add-btn, #remove-btn{
+  border-radius: 6px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ 
+#inputtext {
+  border: 2px solid rgb(99, 99, 109);
+  border-radius: 6px;
+  padding-left: .5em;
+  padding: .1em .5em;
+  background-color: aliceblue;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#notes {
+  display: flex;
+  flex-direction: column;
+  margin: 1em auto;
+  width: 90%;
+}
+.abc {
+  margin: 0 auto;
+  width: 90%;
+}
+.myitems {
+  color: red;
+  list-style: square;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
