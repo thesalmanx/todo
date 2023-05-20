@@ -12,6 +12,8 @@
   margin-bottom: 1em;
  }
  #add-btn, #remove-btn{
+  padding: .7em .8em;
+  margin-left: 1em;
   border-radius: 6px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
  }
@@ -19,8 +21,7 @@
 #inputtext {
   border: 2px solid rgb(99, 99, 109);
   border-radius: 6px;
-  padding-left: .5em;
-  padding: .1em .5em;
+  padding: .7em .8em;
   background-color: aliceblue;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
